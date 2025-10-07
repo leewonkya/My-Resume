@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon">
+
+    <title>Quoc Ky La - Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .resume-container {
+            width: 100%;
+            max-width: 850px;
+            background: #fff;
+            padding: 30px 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 2.2em;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 8px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        h3 {
+            color: #34495e;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+        }
+        .subtitle {
+            font-size: 1.3em;
+            color: #555;
+            margin-top: -5px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 20px;
+            margin-bottom: 20px;
+            color: #666;
+            font-size: 0.95em;
+        }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .experience-item, .project-item {
+            margin-bottom: 25px;
+        }
+        .experience-item .duration, .project-item .tech {
+            font-style: italic;
+            color: #777;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .skills-table td {
+            padding: 8px 0;
+            vertical-align: top;
+            width: 30%;
+        }
+        .skills-table td:first-child {
+            font-weight: bold;
+            color: #444;
+            width: 15%;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <h1>LA QUOC KY</h1>
+        <p class="subtitle">MIDDLE .NET DEVELOPER</p>
+
+        <div class="contact-info">
+            <span>0365757308</span>
+            <span>lqkydev99.it@gmail.com</span>
+            <span>Ho Chi Minh</span>
+            <span><a href="https://github.com/leewonkya" target="_blank">LinkedIn</a></span>
+            <span><a href="https://www.linkedin.com/in/qu%E1%BB%91c-k%E1%BB%B3-la-7920a2204/" target="_blank">GitHub</a></span>
+        </div>
+
+        <h2>PROFESSIONAL SUMMARY</h2>
+        <p>Over <strong>4+ years of experience</strong> specializing in application development using <strong>.NET Core (API, MVC)</strong> and <strong>Flutter</strong>. Proficient in designing and deploying high-performance APIs, optimizing <strong>PostgreSQL</strong> databases, and integrating third-party services (Firebase, ZaloOA). Seeking opportunities to develop large-scale software solutions, driving product efficiency.</p>
+
+        <h2>CORE SKILLS</h2>
+        <table class="skills-table">
+            <tr>
+                <td><strong>Backend</strong></td>
+                <td><strong>C#</strong>, <strong>.NET Core</strong> (API, MVC), <strong>Entity Framework</strong>, ASP.NET Web API, RESTful APIs.</td>
+            </tr>
+            <tr>
+                <td><strong>Frontend/Mobile</strong></td>
+                <td><strong>Flutter</strong>, HTML, CSS, JavaScript, JQuery/AJAX, Razor Pages.</td>
+            </tr>
+            <tr>
+                <td><strong>Database</strong></td>
+                <td><strong>PostgreSQL</strong>, SQL Server (Advanced Query Optimization).</td>
+            </tr>
+            <tr>
+                <td><strong>Tools/Others</strong></td>
+                <td>Git, Visual Studio, VS Code, Android Studio, <strong>Agile/Scrum</strong>.</td>
+            </tr>
+        </table>
+
+        <h2>WORK EXPERIENCE</h2>
+        <div class="experience-item">
+            <h3>Software Engineer (.NET Backend/Flutter)</h3>
+            <p><strong>EZ NET Technology Co., Ltd</strong> | <span class="duration">Jul 2021 – Apr 2025 (Approx. 4 Years)</span></p>
+            <ul>
+                <li>Developed and maintained complex Enterprise Management Systems (ERP/Workforce Management) using .NET Core and Flutter, serving thousands of end-users.</li>
+            </ul>
+        </div>
+
+        <h2>FEATURED PROJECTS</h2>
+        
+        <div class="project-item">
+            <h3>Workforce Field Operations System</h3>
+            <p class="tech"><em>Technology:</em> .NET Core, RESTful APIs, PostgreSQL, Flutter, Firebase, ZaloOA Integration.</p>
+            <ul>
+                <li>Set up the project environment and established the Backend MVC Architecture.</li>
+                <li>Engineered high-performance RESTful API endpoints using .NET Core to support complex mobile functionalities.</li>
+                <li>Spearheaded the development of a critical, high-integration module, designing the technical architecture for external API integrations and the ZaloOA communication layer.</li>
+                <li>Managed the full module lifecycle: responsible for estimation, technical design, defining work tickets, and task assignment for the member.</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h3>Workforce Management & Coordination System – FieldForce</h3>
+            <p class="tech"><em>Technology:</em> .NET Core, RESTful APIs, PostgreSQL, Flutter, Image Detection API.</p>
+            <ul>
+                <li>Implemented the avatar scanning feature for AI training data and user check-in verification using Image Detection data.</li>
+                <li>Spearheaded performance optimization efforts on a critical export report, debugging and refactoring high-latency PostgreSQL queries.</li>
+                <li>Built the Import/Export functionality and Optimized PostgreSQL queries to ensure fast and efficient data processing.</li>
+                <li>Configured and implemented the mobile notification system using FCM and APNs.</li>
+            </ul>
+        </div>
+
+        <h2>EDUCATION</h2>
+        <div class="education-item">
+            <h3>Dong Thap University</h3>
+            <p><strong>Bachelor's Degree in Information Technology</strong> | <em>Oct 2017 – Jun 2021</em></p>
+        </div>
+    </div>
+</body>
+</html>
