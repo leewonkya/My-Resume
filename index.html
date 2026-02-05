@@ -10,9 +10,9 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
+            line-height: 1.5;
             margin: 0;
-            padding: 20px;
+            padding: 16px;
             background-color: #f4f4f4;
             color: #333;
             display: flex;
@@ -21,9 +21,9 @@
         }
         .resume-container {
             width: 100%;
-            max-width: 850px;
+            max-width: 820px;
             background: #fff;
-            padding: 30px 40px;
+            padding: 24px 32px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             border-radius: 8px;
         }
@@ -36,13 +36,13 @@
             color: #34495e;
             border-bottom: 2px solid #eee;
             padding-bottom: 8px;
-            margin-top: 30px;
-            margin-bottom: 15px;
+            margin-top: 24px;
+            margin-bottom: 12px;
             font-size: 1.5em;
         }
         h3 {
             color: #34495e;
-            margin-bottom: 5px;
+            margin-bottom: 4px;
             font-size: 1.2em;
         }
         .subtitle {
@@ -73,13 +73,13 @@
             padding: 0;
         }
         ul li {
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
         p {
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
         .experience-item, .project-item {
-            margin-bottom: 25px;
+            margin-bottom: 18px;
         }
         .experience-item .duration, .project-item .tech {
             font-style: italic;
@@ -101,6 +101,25 @@
             font-weight: bold;
             color: #444;
             width: 15%;
+        }
+        @media print {
+            body {
+                background: #fff;
+                padding: 0;
+            }
+            .resume-container {
+                box-shadow: none;
+                border-radius: 0;
+                padding: 12mm 14mm;
+                max-width: none;
+            }
+            h1 { font-size: 24pt; margin-bottom: 4px; }
+            h2 { font-size: 15pt; margin-top: 18px; margin-bottom: 8px; }
+            h3 { font-size: 12pt; margin-bottom: 2px; }
+            p, li { font-size: 10pt; line-height: 1.35; }
+            ul { margin-left: 14px; }
+            .experience-item, .project-item { margin-bottom: 12px; page-break-inside: avoid; }
+            h2, h3 { page-break-after: avoid; }
         }
     </style>
 </head>
